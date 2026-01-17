@@ -1,64 +1,202 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-     font-family: "Roboto", sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.header{
-    background-color: rgba(255, 255, 255, 0.7);
+.header {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
-.container{
-    max-width: 1300px;
-    margin: auto;
-    padding: 0px 25px;
+.header .container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0px 25px;
 }
 
-.navbar{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 25px;
-    gap: 20px;
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px;
+  gap: 20px;
 }
 
-.navbar a{
-    text-decoration: none;
+.navbar a {
+  text-decoration: none;
+  color: #555;
+}
+
+.headerContent {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.headerContentItem {
+  flex: 1;
+}
+
+.headerContentItem h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 8px;
+  margin-left: 50px;
+}
+
+.headerContentItem p {
+  color: #555;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.headerContentItem img {
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.categories {
+  margin: 70px 0px;
+}
+
+.categories .container {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0px 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container img {
+  flex-basis: 30%;
+  min-width: 250px;
+}
+
+.feature-products {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-products h2 {
+  color: #555;
+  line-height: 60px;
+  text-align: center;
+}
+
+.customunderlinecontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.customunderline {
+  width: 80px;
+  height: 5px;
+  background-color: #555;
+  margin-bottom: 80px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-container .products-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  padding: 10px;
+  margin-bottom: 50px;
+  flex-basis: 25%;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.products-card:hover {
+  transform: translateY(-5px);
+}
+
+.latest-products {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-products h2 {
+  color: #555;
+  line-height: 60px;
+  text-align: center;
+}
+
+.banner {
+  margin-top: 80px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px 0px;
+}
+
+.banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  margin: auto;
+  padding: 0px 25px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-banner-container {
+  flex: 1;
+  img {
+  width: 100%;
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+ }
+
+}
+
+.right-banner-container {
+  flex: 1;
+  
+  .banner-title{
     color: #555;
-}
+  }
 
-.headerContent{
-    margin-top: 70px;
-    display: flex;
-    align-items: center;
-     
-
-}
-
-.headerContentItem{
-    flex: 1;
-}
-
-.headerContentItem h1{
+  .banner-subtitle{
     font-size: 50px;
     line-height: 60px;
-    margin: 25px 8px;
-    margin-left: 50px;
-}
+    margin: 10px 0px;
+  }
+ 
+  .banne-description{
+    color: #555;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
 
-.headerContentItem p{
-    color: #555 ;
-    font-size: 25px;
-    margin-left: 50px;
-}
+  button{
+    background-color: #555;
+    margin: 30px 0px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
 
-.headerContentItem img{
-    width: 100%;
-    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  button:hover{
+    background-color: #0f0f0f;
+  }
 }
-
