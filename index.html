@@ -19,15 +19,33 @@
   <body>
     <header>
       <div class="container">
-        <div class="navbar">
-          <a href="index.html">Home</a>
-          <a href="products.html">Product</a>
-          <a href="">Contact</a>
-          <a href="">About</a>
-          <a href="">Account</a>
-          <a href="card.html"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
 
+         <div class="navbar">
+           <div class="nav-item">
+              <a href="index.html">Home</a>
+              <a href="products.html">Product</a>
+              <a href="">Contact</a>
+              <a href="">About</a>
+              <a href="">Account</a>
+           </div>
+
+          <div class="card-menu">
+          <a href="card.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <label class="menu-icon" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+          </div>
+          
+      </div>
+
+      <input type="checkbox" id="menu-toggle">
+      <div class="hidden-nav-item">
+              <a href="index.html">Home</a>
+              <a href="products.html">Product</a>
+              <a href="">Contact</a>
+              <a href="">About</a>
+              <a href="">Account</a>
+      </div>
+      
+       
         <div class="headerContent">
           <div class="headerContentItem">
             <h1>
