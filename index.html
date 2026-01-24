@@ -1,205 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce website-home</title>
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/5cce939377.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce website-home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/5cce939377.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+</head>
 
-   <header>
-        <nav>
-            <section class="nav-container">
-                <div class="nav-desktop">
-                    <a href="index.html">Home</a>
-                    <a href="products.html">Product</a>
-                    <a href="">Contact</a>
-                    <a href="about.html">About</a>
-                </div>
+<body>
 
-                <div class="card-and-menu">
-                    <a href="card.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                    <label class="menu-icon" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
-                </div>
-
-                <input type="checkbox" id="menu-toggle">
-                <div class="nav-mobile">
-                    <a href="index.html">Home</a>
-                    <a href="products.html">Product</a>
-                    <a href="">Contact</a>
-                    <a href="about.html">About</a>
-                </div>
-            </section>
-        </nav>
-    </header>
-
-    <main>
-
-        <div class="home-page">
-          <div class="left-container">
-             <img class="logo" src="assets/m'yors.png" alt="M'yors">
-            <h1>
-              The Presence <br />
-              Without Noise
-            </h1>
-            <p>
-              Minimal compositions for those who prefer quiet confidence. A
-              scent that lingers, never shouts.
-            </p>
-          </div>
-          <div class="right-container">
-            <img class="modelme" src="./assets/model-me.png" alt="" />
-          </div>
+  <header>
+    <nav>
+      <section class="nav-container">
+        <div class="nav-desktop">
+          <a href="index.html">Home</a>
+          <a href="products.html">Product</a>
+          <a href="">Contact</a>
+          <a href="about.html">About</a>
         </div>
-      </div>
-        <div class="categories">
-      <div class="container">
-        <img src="./assets/dominant.png" alt="DOMINANT" />
-        <img src="./assets/slay.png" alt="SLAY" />
-        <img src="./assets/good-girl-pick.png" alt="good-girl-pick" />
-      </div>
-    </div>
 
-    <div class="feature-products">
-      <h2>Feature Products</h2>
-      <div class="customunderlinecontainer">
-        <div class="customunderline"></div>
-      </div>
+        <div class="card-and-menu">
+          <a href="card.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <label class="menu-icon" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+        </div>
 
-      <div class="product-container">
-        <a class="products-card" href="products-details.html">
-          <img src="./assets/dominant.png" alt="DOMINANT" />
-          <span class="product-title">title</span>
-          <span class="product-price">₹10000</span>
-          <div><img src="" alt="" /></div>
+        <input type="checkbox" id="menu-toggle">
+        <div class="nav-mobile">
+          <a href="index.html">Home</a>
+          <a href="products.html">Product</a>
+          <a href="">Contact</a>
+          <a href="about.html">About</a>
+        </div>
+      </section>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="poster">
+      <div class="left-container">
+        <img class="logo" src="./assets/M'yors.png" alt="M'yors">
+        <h1>
+          The Presence <br />
+          Without Noise
+        </h1>
+        <br>
+        <p>
+          Minimal compositions for those who prefer quiet confidence. A
+          scent that lingers, never shouts.
+        </p>
+        <br>
+      </div>
+      <div class="right-container">
+        <img class="modelme" src="./assets/model-me.png" alt="model" />
+      </div>
+    </section>
+
+
+    <section class="perfume-categories">
+      <h2 class="section-title">Perfume Categories</h2>
+
+      <div class="category-grid">
+
+        <a href="">
+          <div class="category-card floral">
+            <h3>Floral</h3>
+            <p>Soft, romantic notes inspired by fresh flowers.</p>
+          </div>
         </a>
 
-        <div class="products-card">
-          <img src="./assets/dominant.png" alt="DOMINANT" />
-          <span class="product-title">title</span>
-          <span class="product-price">₹10000</span>
-          <div><img src="" alt="" /></div>
-        </div>
+        <a href="">
+          <div class="category-card woody">
+            <h3>Woody</h3>
+            <p>Warm and earthy fragrances with deep character.</p>
+          </div>
+        </a>
 
-        <div class="products-card">
-          <img src="./assets/dominant.png" alt="DOMINANT" />
-          <span class="product-title">title</span>
-          <span class="product-price">₹10000</span>
-          <div><img src="" alt="" /></div>
-        </div>
+        <a href="">
+          <div class="category-card fresh">
+            <h3>Fresh</h3>
+            <p>Clean, airy scents perfect for everyday wear.</p>
+          </div>
 
-        <div class="products-card">
-          <img src="./assets/dominant.png" alt="DOMINANT" />
-          <span class="product-title">title</span>
-          <span class="product-price">₹10000</span>
-          <div><img src="" alt="" /></div>
-        </div>
+        </a>
+
+        <a href="">
+          <div class="category-card oriental">
+            <h3>Oriental</h3>
+            <p>Rich, sensual blends with spice and amber.</p>
+          </div>
+        </a>
+
       </div>
-    </div>
+    </section>
 
-    <div class="latest-products">
-      <h2>Latest Products</h2>
-      <div class="customunderlinecontainer">
-        <div class="customunderline"></div>
-      </div>
+    <section class="feature-products">
+      <h2>Feature Products</h2>
 
       <div class="product-container">
-        <div class="products-card">
-          <img src="./assets/dominant.png" alt="DOMINANT" />
-          <span class="product-title">title</span>
-          <span class="product-price">₹10000</span>
-          <div><img src="" alt="" /></div>
-        </div>
 
-        <div class="products-card">
-          <img src="./assets/dominant.png" alt="DOMINANT" />
-          <span class="product-title">title</span>
-          <span class="product-price">₹10000</span>
-          <div><img src="" alt="" /></div>
-        </div>
+        <a class="products-card" href="products-details.html">
+          <div class="img">
+            <img src="./assets/secret.png" alt="secret" />
+          </div>
+          <span class="product-title">Secret</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.5+</span>
+          </div>
 
-        <div class="products-card">
-          <img src="./assets/dominant.png" alt="DOMINANT" />
-          <span class="product-title">title</span>
-          <span class="product-price">₹10000</span>
-          <div><img src="" alt="" /></div>
-        </div>
+        </a>
 
-        <div class="products-card">
-          <img src="./assets/dominant.png" alt="DOMINANT" />
-          <span class="product-title">title</span>
-          <span class="product-price">₹10000</span>
-          <div><img src="" alt="" /></div>
-        </div>
+        <a class="products-card" href="products-details.html">
+          <div class="img">
+            <img src="./assets/slay.png" alt="slay" />
+          </div>
+          <span class="product-title">Slay</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.3+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="products-details.html">
+          <div class="img">
+            <img src="./assets/sky-drop.png" alt="sky-drop" />
+          </div>
+          <span class="product-title">Sky-drop</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.8+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="products-details.html">
+          <div class="img">
+            <img src="./assets/dominant.png" alt="DOMINANT" />
+          </div>
+          <span class="product-title">Dominant</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.2+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="products-details.html">
+          <div class="img">
+            <img src="./assets/good-girl-pick.png" alt="God girl pick" />
+          </div>
+          <span class="product-title">God girl pick</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.9+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="products-details.html">
+          <div class="img">
+            <img src="./assets/head-master.png" alt="head-master" />
+          </div>
+          <span class="product-title">Head-master</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 5</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="products-details.html">
+          <div class="img">
+            <img src="./assets/possessive.png" alt="possessive" />
+          </div>
+          <span class="product-title">Possessive</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.8+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="products-details.html">
+          <div class="img">
+            <img src="./assets/vibe.png" alt="vibe" />
+          </div>
+          <span class="product-title">Vibe</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.4+</span>
+          </div>
+        </a>
       </div>
-    </div>
+    </section>
 
-    <div class="banner">
+    <section class="banner">
       <div class="banner-container">
         <div class="left-banner-container">
           <img src="/assets/model-cutout.png" alt="" />
         </div>
         <div class="right-banner-container">
           <span class="banner-title">Exclusively Available on store</span>
-          <h1 class="banner-subtitle">M'YORS PERPUME</h1>
+          <h1 class="banner-subtitle">M'YORS PERFUME</h1>
           <span class="banne-description">
             Minimal compositions for those who prefer quiet confidence. A scent
             that lingers, never shouts. Minimal compositions for those who
-            prefer quiet confidence. A scent that lingers, never shouts.</span
-          >
+            prefer quiet confidence. A scent that lingers, never shouts.</span>
           <br>
           <button>Buy Now &#8594</button>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="testimonial">
-        <div class="testimonial-inner-container">
-          <div class="testimonial-card">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Magnam distinctio quas ex mollitia ad reprehenderit ullam quasi ea est aliquam.
-            </p>
-             <span>stars</span>
-             <img src="./assets/good-girl-pick.png" alt="model">
-             <h3>model face</h3>
-          </div>
-
-           <div class="testimonial-card">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Magnam distinctio quas ex mollitia ad reprehenderit ullam quasi ea est aliquam.
-            </p>
-             <span>stars</span>
-             <img src="./assets/good-girl-pick.png" alt="model">
-             <h3>model face</h3>
-          </div>
-
-           <div class="testimonial-card">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Magnam distinctio quas ex mollitia ad reprehenderit ullam quasi ea est aliquam.
-            </p>
-             <span>stars</span>
-             <img src="./assets/good-girl-pick.png" alt="model">
-             <h3>model face</h3>
-          </div>
+    <section class="testimonial">
+      <div class="testimonial-inner-container">
+        <div class="testimonial-card">
+          <img src="./assets/mode-face.jpg" alt="model">
+          <h3>Model Face</h3>
+          <span>Rating: 4.9</span>
+          <p>
+            M’YORS perfume delivers a rich, sophisticated fragrance that lasts all day, making every moment
+            feel confident, premium, and unforgettable.
+          </p>
         </div>
-    </div>
 
-    <div class="branding">
+        <div class="testimonial-card">
+          <img src="./assets/kyliejenner.jpg" alt="model">
+          <h3>Kylie Jenner</h3>
+          <span>Rating: 5</span>
+
+          <p>
+            Elegant and long-lasting, M’YORS perfume blends beautifully, leaving a refined scent that feels
+            luxurious, modern, and perfectly balanced.
+          </p>
+
+        </div>
+
+        <div class="testimonial-card">
+          <img src="./assets/manku.jpg" alt="model">
+          <h3>manku</h3>
+          <span>Rating: 4.8</span>
+          <p>
+            M’YORS perfume offers a smooth, captivating aroma with excellent longevity, creating a bold yet
+            classy impression throughout the day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="branding">
       <div class="branding-inner">
         <img src="./assets/Loreal_logo_PNG2.png" alt="">
         <img src="./assets/Dove_logo_PNG6.png" alt="">
@@ -207,38 +259,35 @@
         <img src="./assets/PG_logo_PNG2.png" alt="">
         <img src="./assets/Unilever_logo_PNG2.png" alt="">
       </div>
-    </div>
+    </section>
 
-    </main>
+  </main>
 
-    <footer>
-       <div class="footer-inner-container">
-         <div class="footercolumn footercolumn-1">
-          <h3>Download our app</h3>
-          <p>Download App for Android and ios mobile phone</p>
-          <div class="footer-store">
-            <img src="./assets/play-store.png" alt="play store">
-            <img src="./assets/app-store.png" alt="app store">
-          </div>
-         </div>
+  <footer>
+    <section class="footer-inner-container">
+      <div class="footercolumn footercolumn-1">
+        <h3>Download our app</h3>
+        <p>Download App for Android and ios mobile phone</p>
+        <div class="footer-store">
+          <img src="./assets/play-store.png" alt="play store">
+          <img src="./assets/app-store.png" alt="app store">
+        </div>
+      </div>
 
-          <div class="footercolumn footercolumn-2">
-          <h3>Usefull Links</h3>
-          <p>Coupons</p>
-          <p>Blog post</p>
-          <p>Return Policy</p>
-          <p>Join Affiliate</p>
-         </div>
+      <div class="footercolumn footercolumn-2">
+        <h3>Usefull Links</h3>
+        <p>Return Policy</p>
+      </div>
 
-          <div class="footercolumn footercolumn-3">
-          <h3>Follow us</h3>
-          <p>Facebook</p>
-          <p>Instagram</p>
-          <p>Twitter</p>
-          <p>Youtube</p>
-         </div>
-       </div>
-    </footer>
+      <div class="footercolumn footercolumn-3">
+        <h3>Follow us</h3>
+        <p>github</p>
+        <p>Instagram</p>
+        <p>linkedin</p>
+      </div>
+    </section>
+  </footer>
 
-  </body>
+</body>
+
 </html>
