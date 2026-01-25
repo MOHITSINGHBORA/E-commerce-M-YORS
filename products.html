@@ -1,145 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce website-products</title>
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/5cce939377.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="navbar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce website-products</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/5cce939377.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <section class="nav-container">
+        <div class="nav-desktop">
+          <a href="index.html">Home</a>
+          <a href="products.html">Product</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+        </div>
+
+        <div class="card-and-menu">
+          <a href="card.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <label class="menu-icon" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <div class="nav-mobile">
           <a href="index.html">Home</a>
           <a href="products.html">Product</a>
           <a href="">Contact</a>
           <a href="about.html">About</a>
-          <a href="">Account</a>
-          <a href="card.html"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
+      </section>
+    </nav>
+  </header>
+
+  <main>
+    <section class="allproduct-section">
+      <div class="allproduct-label-section">
+        <h2>All Products</h2>
+        <select>
+          <option value="">Default Shorting</option>
+          <option value="">sort by Price</option>
+          <option value="">sort by Popularity</option>
+          <option value="">sort by Rating</option>
+          <option value="">sort by Sale</option>
+        </select>
       </div>
-    </header>
 
-    <main>
-        <div class="allproduct-section">
-                <div class="allproduct-label-section">
-                    <h2>All Products</h2>
-                    <select>
-                        <option value="">Default Shorting</option>
-                        <option value="">sort by Price</option>
-                        <option value="">sort by Popularity</option>
-                        <option value="">sort by Rating</option>
-                        <option value="">sort by Sale</option>
-                    </select>
-                </div>
+      <div class="product-container">
 
-                <div class="feature-products" style="padding: 0px; margin: unset; max-width:unset ;">
-                    <div class="product-container">
-                        <div class="products-card">
-                        <img src="./assets/dominant.png" alt="DOMINANT" />
-                        <span class="product-title">title</span>
-                        <span class="product-price">₹10000</span>
-                        <div><img src="" alt="" /></div>
-                        </div>
-                        
-                        <div class="products-card">
-                        <img src="./assets/dominant.png" alt="DOMINANT" />
-                        <span class="product-title">title</span>
-                        <span class="product-price">₹10000</span>
-                        <div><img src="" alt="" /></div>
-                        </div>
-
-                        <div class="products-card">
-                        <img src="./assets/dominant.png" alt="DOMINANT" />
-                        <span class="product-title">title</span>
-                        <span class="product-price">₹10000</span>
-                        <div><img src="" alt="" /></div>
-                        </div>
-
-                        <div class="products-card">
-                        <img src="./assets/dominant.png" alt="DOMINANT" />
-                        <span class="product-title">title</span>
-                        <span class="product-price">₹10000</span>
-                        <div><img src="" alt="" /></div>
-                        </div>
-
-                        <div class="products-card">
-                        <img src="./assets/dominant.png" alt="DOMINANT" />
-                        <span class="product-title">title</span>
-                        <span class="product-price">₹10000</span>
-                        <div><img src="" alt="" /></div>
-                        </div>
-
-                        <div class="products-card">
-                        <img src="./assets/dominant.png" alt="DOMINANT" />
-                        <span class="product-title">title</span>
-                        <span class="product-price">₹10000</span>
-                        <div><img src="" alt="" /></div>
-                        </div>
-
-                        <div class="products-card">
-                        <img src="./assets/dominant.png" alt="DOMINANT" />
-                        <span class="product-title">title</span>
-                        <span class="product-price">₹10000</span>
-                        <div><img src="" alt="" /></div>
-                        </div>
-
-                        <div class="products-card">
-                        <img src="./assets/dominant.png" alt="DOMINANT" />
-                        <span class="product-title">title</span>
-                        <span class="product-price">₹10000</span>
-                        <div><img src="" alt="" /></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pagination">
-                    <span class="pagination-button">1</span>
-                    <span class="pagination-button">2</span>
-                    <span class="pagination-button">3</span>
-                    <span class="pagination-button">4</span>
-                    <span class="pagination-button">&#8594</span>
-                </div>
-        </div>
-    </main>
-
-    <footer>
-      <div class="footer-inner-container">
-        <div class="footercolumn footercolumn-1">
-          <h3>Download our app</h3>
-          <p>Download App for Android and ios mobile phone</p>
-          <div class="footer-store">
-            <img src="./assets/play-store.png" alt="play store" />
-            <img src="./assets/app-store.png" alt="app store" />
+        <a class="products-card" href="./product-details/secret.html">
+          <div class="img">
+            <img src="./assets/secret.png" alt="secret" />
           </div>
-        </div>
+          <span class="product-title">Secret</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.5+</span>
+          </div>
 
-        <div class="footercolumn footercolumn-2">
-          <h3>Usefull Links</h3>
-          <p>Coupons</p>
-          <p>Blog post</p>
-          <p>Return Policy</p>
-          <p>Join Affiliate</p>
-        </div>
+        </a>
 
-        <div class="footercolumn footercolumn-3">
-          <h3>Follow us</h3>
-          <p>Facebook</p>
-          <p>Instagram</p>
-          <p>Twitter</p>
-          <p>Youtube</p>
+        <a class="products-card" href="./product-details/slay.html">
+          <div class="img">
+            <img src="./assets/slay.png" alt="slay" />
+          </div>
+          <span class="product-title">Slay</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.3+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="./product-details/sky-drop.html">
+          <div class="img">
+            <img src="./assets/sky-drop.png" alt="sky-drop" />
+          </div>
+          <span class="product-title">Sky-drop</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.8+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="./product-details/dominant.html">
+          <div class="img">
+            <img src="./assets/dominant.png" alt="DOMINANT" />
+          </div>
+          <span class="product-title">Dominant</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.2+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="./product-details/god-girl-pick.html">
+          <div class="img">
+            <img src="./assets/good-girl-pick.png" alt="God girl pick" />
+          </div>
+          <span class="product-title">God girl pick</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.9+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="./product-details/head-master.html">
+          <div class="img">
+            <img src="./assets/head-master.png" alt="head-master" />
+          </div>
+          <span class="product-title">Head-master</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 5</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="./product-details/possessive.html">
+          <div class="img">
+            <img src="./assets/possessive.png" alt="possessive" />
+          </div>
+          <span class="product-title">Possessive</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.8+</span>
+          </div>
+        </a>
+
+        <a class="products-card" href="./product-details/vibe.html">
+          <div class="img">
+            <img src="./assets/vibe.png" alt="vibe" />
+          </div>
+          <span class="product-title">Vibe</span>
+          <div class="price-rating">
+            <span class="product-price">₹10000</span>
+            <span class="Rating">Rating: 4.4+</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="pagination">
+        <a href="error.html" class="pagination-button">1</a>
+        <a href="error.html" class="pagination-button">2</a>
+        <a href="error.html" class="pagination-button">3</a>
+        <a href="error.html" class="pagination-button">4</a>
+        <a href="error.html" class="pagination-button">&#8594</a>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-inner-container">
+      <div class="footercolumn footercolumn-1">
+        <h3>Download our app</h3>
+        <p>Download App for Android and ios mobile phone</p>
+        <div class="footer-store">
+          <a href="https://play.google.com/store/games?hl=en_IN"> <img src="./assets/play-store.png"
+              alt="play store"></a>
+          <a href="https://www.apple.com/in/app-store/"> <img src="./assets/app-store.png" alt="app store"></a>
+
         </div>
       </div>
-    </footer>
-  </body>
+
+      <div class="footercolumn footercolumn-2">
+        <h3>Usefull Links</h3>
+        <a href="error.html">Return Policy</a>
+
+      </div>
+
+      <div class="footercolumn footercolumn-3">
+        <h3>Follow us</h3>
+        <a href="mailto:mohitsinghbora13012@gmail.com">Gmail</a>
+        <a href="https://github.com/MOHITSINGHBORA">github</a>
+        <a href="https://www.linkedin.com/in/mohitsinghboram2b/">linkedin</a>
+        <a href="https://www.instagram.com/bryfica/">Instagram</a>
+      </div>
+    </section>
+  </footer>
+</body>
+
 </html>

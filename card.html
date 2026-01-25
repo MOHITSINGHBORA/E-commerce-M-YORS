@@ -1,140 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce website-home</title>
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/5cce939377.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-      <header>
-      <div class="container">
-        <div class="navbar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce website-home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/5cce939377.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <section class="nav-container">
+        <div class="nav-desktop">
           <a href="index.html">Home</a>
           <a href="products.html">Product</a>
           <a href="">Contact</a>
           <a href="about.html">About</a>
-          <a href="">Account</a>
+        </div>
+
+        <div class="card-and-menu">
           <a href="card.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <label class="menu-icon" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
         </div>
-      </div>
-    </header>
-    
-     <main>
-        <div class="card-section-wrapper">
-            <table>
-                <tr>
-                    <th>Products</th>
-                    <th>Quantity</th>
-                    <th>Sub-Total</th>
-                </tr>
 
-                <tr>
-                    <td>
-                        <div class="card-info">
-                            <img src="./assets/slay.png" alt="">
-                            <div class="card-info-details">
-                                <p>Perfume</p>
-                                <small>Price ₹10000</small>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                    <td><input type="number" value="1"></td>
-                    <td>₹10000</td>
-                </tr>
+        <input type="checkbox" id="menu-toggle">
+        <div class="nav-mobile">
+          <a href="index.html">Home</a>
+          <a href="products.html">Product</a>
+          <a href="">Contact</a>
+          <a href="about.html">About</a>
+        </div>
+      </section>
+    </nav>
+  </header>
 
-                <tr>
-                    <td>
-                        <div class="card-info">
-                            <img src="./assets/slay.png" alt="">
-                            <div class="card-info-details">
-                                <p>Perfume</p>
-                                <small>Price ₹10000</small>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                     <td><input type="number" value="1"></td>
-                    <td>₹10000</td>
-                </tr>
+  <main>
+    <section class="card-section-wrapper">
+      <table>
+        <tr>
+          <th>Products</th>
+          <th>Quantity</th>
+          <th>Sub-Total</th>
+        </tr>
 
-                <tr>
-                    <td>
-                        <div class="card-info">
-                            <img src="./assets/slay.png" alt="">
-                            <div class="card-info-details">
-                                <p>Perfume</p>
-                                <small>Price ₹10000</small>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                     <td><input type="number" value="1"></td>
-                    <td>₹10000</td>
-                </tr>
-            </table>
-
-            <div class="total-price">
-                <table>
-                    <tr>
-                        <td>SubTotal</td>
-                        <td>₹10000</td>
-                    </tr>
-                    <tr>
-                        <td>Tax</td>
-                        <td>₹100</td>
-                    </tr>
-                    <tr>
-                        <td>Total</td>
-                        <td>10100</td>
-                    </tr>
-                </table>
+        <tr>
+          <td>
+            <div class="card-info">
+              <img src="./assets/good-girl-pick.png" alt="">
+              <div class="card-info-details">
+                <p>good-girl-pick</p>
+                <small>Price ₹13.999</small>
+                <a href="">Remove</a>
+              </div>
             </div>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>13,999</td>
+        </tr>
 
-             <div class="total-price">
-                <span class="checkout-button">Buy Now &#8594 </span>
-             </div>
-        </div>
-     </main>
+        <tr>
+          <td>
+            <div class="card-info">
+              <img src="./assets/secret.png" alt="">
+              <div class="card-info-details">
+                <p>Secret</p>
+                <small>Price ₹12,545</small>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>₹12,545</td>
+        </tr>
 
-    <footer>
-      <div class="footer-inner-container">
-        <div class="footercolumn footercolumn-1">
-          <h3>Download our app</h3>
-          <p>Download App for Android and ios mobile phone</p>
-          <div class="footer-store">
-            <img src="./assets/play-store.png" alt="play store" />
-            <img src="./assets/app-store.png" alt="app store" />
-          </div>
-        </div>
+        <tr>
+          <td>
+            <div class="card-info">
+              <img src="./assets/sky-drop.png" alt="">
+              <div class="card-info-details">
+                <p>Sky-drop</p>
+                <small>Price ₹11,554</small>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>₹11,554</td>
+        </tr>
+      </table>
 
-        <div class="footercolumn footercolumn-2">
-          <h3>Usefull Links</h3>
-          <p>Coupons</p>
-          <p>Blog post</p>
-          <p>Return Policy</p>
-          <p>Join Affiliate</p>
-        </div>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>SubTotal</td>
+            <td>₹38,088</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>₹6,855.84</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>₹44,943.841</td>
+          </tr>
+        </table>
+      </div>
 
-        <div class="footercolumn footercolumn-3">
-          <h3>Follow us</h3>
-          <p>Facebook</p>
-          <p>Instagram</p>
-          <p>Twitter</p>
-          <p>Youtube</p>
+      <div class="total-price">
+        <a href="error.html" class="buynow-button" >Buy Now &#8594</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-inner-container">
+      <div class="footercolumn footercolumn-1">
+        <h3>Download our app</h3>
+        <p>Download App for Android and ios mobile phone</p>
+        <div class="footer-store">
+          <img src="./assests/play-store.png" alt="play store">
+          <img src="./assests/app-store.png" alt="app store">
         </div>
       </div>
-    </footer>
-  </body>
+
+      <div class="footercolumn footercolumn-2">
+        <h3>Usefull Links</h3>
+        <p>Return Policy</p>
+      </div>
+
+      <div class="footercolumn footercolumn-3">
+        <h3>Follow us</h3>
+        <p>github</p>
+        <p>Instagram</p>
+        <p>linkedin</p>
+      </div>
+    </section>
+  </footer>
+</body>
+
 </html>
