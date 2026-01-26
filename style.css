@@ -402,7 +402,7 @@ header {
 
   .feature-products {
     .product-container {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
       margin: 0 20px;
       place-items: center;
 
@@ -962,7 +962,7 @@ footer {
 
   .allproduct-section {
     .product-container {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
 
       .products-card {
         .img {
