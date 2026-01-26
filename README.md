@@ -6,8 +6,8 @@ The project focuses on clean UI, premium aesthetics, and performance optimizatio
 ---
 
 ##  Live Demo
-- link-1
-- link-2
+- link-1 https://mohitsinghbora.github.io/E-commerce-M-YORS/
+- link-2 https://myors.netlify.app/
 
 ---
 
